@@ -1,0 +1,18 @@
+{
+  "name": "transaction-ledger-api",
+  "version": "1.0.0",
+  "description": "Transaction Ledger API: accounts, credit/debit transactions, transfers",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node --no-warnings src/server.js",
+    "dev": "node --no-warnings --watch src/server.js",
+    "test": "node --no-warnings --test test/api.test.js"
+  },
+  "engines": {
+    "node": ">=22.13"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.22.3"
+  }
+}
